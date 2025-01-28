@@ -1,0 +1,86 @@
+/* General Bio Container Styles */
+.bio-container {
+    padding: 20px;
+    background-color: #f8f8f8;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.bio-container h2 {
+    color: #333;
+}
+
+.bio-container p {
+    line-height: 1.6;
+    color: #555;
+}
+
+/* Text Container Styles */
+.text-container {
+    margin-left: 250px;
+    margin-right: 250px;
+    margin-top: 30px;
+}
+
+/* Photography and Arts Section */
+.photography,
+.arts {
+    margin-top: 50px;
+    position: relative;
+    display: inline-block;
+    width: 100%;
+}
+
+.image-container {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+
+.recent-image,
+.recentart-image {
+    display: block;
+    width: 30%;
+    height: auto;
+    margin: 0 auto; /* Centers the images */
+}
+
+/* Hover text styling */
+.image-hover-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+
+/* On hover, show the text */
+.image-container:hover .image-hover-text {
+    opacity: 1;
+}
+
+/* Get In Touch Button */
+.get-in-touch-button {
+    background-color: rgb(89, 89, 89);
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 3px;
+}
+
+.get-in-touch-button:hover {
+    background-color: black;
+}
+
+.get-in-touch {
+    margin-top: 10px;
+    padding: 50px;
+}

@@ -1,0 +1,23 @@
+.scroll-to-top {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    background: #999999; /* Dark background */
+    color: white; /* White text */
+    border: none; /* No border */
+    border-radius: 50%; /* Round button */
+    width: 50px; /* Button size */
+    height: 50px; /* Button size */
+    display: flex; /* Flexbox for center alignment */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    cursor: pointer; /* Pointer on hover */
+    opacity: 0; /* Initially hidden */
+    transition: opacity 0.3s; /* Fade effect */
+    z-index: 1000; /* Ensure button is on top */
+  }
+  
+  .scroll-to-top.visible {
+    opacity: 1; /* Show button when visible */
+  }
+  

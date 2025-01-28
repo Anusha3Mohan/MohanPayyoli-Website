@@ -1,0 +1,82 @@
+.admin-gallery-container {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .gallery-sections {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 20px;
+  }
+  
+  .gallery-section-button,
+  .add-section-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #898989;
+    color: white;
+    transition: background-color 0.3s ease;
+  }
+  
+  .gallery-section-button:hover,
+  .add-section-button:hover {
+    background-color: #000000;
+  }
+  
+  .add-section-form {
+    margin-top: 20px;
+  }
+  
+  .add-section-form input {
+    margin: 5px;
+    padding: 8px;
+    font-size: 14px;
+  }
+  
+  .add-section-form button {
+    padding: 8px 15px;
+    font-size: 14px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .add-section-form button:hover {
+    background-color: #218838;
+  }
+  
+  .admin-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333; /* Dark background for contrast */
+    padding: 10px;
+    color: white;
+  }
+  
+  .back-btn {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+  }
+  
+  .header-title {
+    margin: 0;
+    font-size: 24px;
+    color: white;
+    text-align: center;
+    flex: 1; /* Allows the title to take up the remaining space */
+    display: flex;
+    justify-content: center;
+  }
+  

@@ -1,0 +1,52 @@
+.slider-container {
+    position: relative;
+    width: 100%; /* Adjust based on your layout */
+    height: 800px; /* Adjust height based on your image dimensions */
+    overflow: hidden;
+    margin-top: 50px;
+  }
+  
+  .slider-container img {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+  }
+  
+  .slider-container img.fade {
+    opacity: 1; /* Fully visible */
+  }
+  
+  .slider-container img.hidden {
+    display: none; /* Hide non-active images */
+  }
+  
+  .slider-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 24px; /* Adjust size as needed */
+    z-index: 10; /* Ensure buttons are above images */
+    border-radius: 5px; /* Optional: rounded corners */
+    transition: background-color 0.3s ease;
+  }
+  
+  .slider-button:hover {
+    background-color: rgba(0, 0, 0, 0.8); /* Darken on hover */
+  }
+  
+  .left {
+    left: 10px; /* Position for the left button */
+  }
+  
+  .right {
+    right: 10px; /* Position for the right button */
+  }
+  

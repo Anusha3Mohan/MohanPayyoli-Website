@@ -1,0 +1,42 @@
+.manage-link {
+    text-align: center;
+    margin: 20px 0;
+  }
+  
+  .manage-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+  
+  .manage-button:hover {
+    background-color: #45a049;
+  }
+  
+  .admin-login-button {
+    background-color: #5d5d5d;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    margin-top: 30px;
+    border-radius: 5px;
+    text-decoration: none;
+    text-align: center;
+    display: inline-block;
+    cursor: pointer;
+    margin-bottom:2%;
+  }
+  
+  .admin-login-button:hover {
+    background-color: #333;
+  }
+  
+  .admin-login-link {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }

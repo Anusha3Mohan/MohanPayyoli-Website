@@ -1,0 +1,47 @@
+.admin-photos-container, .admin-arts-container {
+    padding: 20px;
+  }
+  
+  .photo-grid, .art-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 16px;
+  }
+  
+  .photo-item, .art-item {
+    position: relative;
+  }
+  
+  .photo-item img, .art-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .delete-button {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+    cursor: pointer;
+  }
+  
+  .add-photo, .add-art {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .add-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  

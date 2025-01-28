@@ -1,0 +1,108 @@
+.footer {
+    background: #000000; /* Dark background color */
+    color: white; /* White text color */
+    text-align: center; /* Center text */
+    padding: 20px 0; /* Padding for top and bottom */
+  }
+  
+  .footer-content {
+    display: flex; /* Use flexbox for layout */
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center items horizontally */
+  }
+  
+  .footer-links, .social-media {
+    margin: 10px 0; /* Space between sections */
+  }
+
+  .stay{
+    color: white;
+  }
+  
+  .footer-links a,
+  .social-media a {
+    color: white; /* White link color */
+    margin: 0 15px; /* Space between links */
+    text-decoration: none; /* Remove underline */
+    transition: color 0.3s; /* Smooth transition for hover */
+  }
+  
+  .social-media a:hover {
+    color: #f0f0f0; /* Change color on hover */
+  }
+  
+  .footer-links a:hover {
+    text-decoration: underline;
+  }
+  
+  .search-form {
+    display: flex; /* Align input and button */
+    margin: 10px 0; /* Space above and below */
+  }
+  
+  .search-input {
+    padding: 8px; /* Padding for input */
+    border: none; /* Remove border */
+    border-radius: 4px; /* Rounded corners */
+  }
+  
+  .search-button {
+    background-color: white; /* Initial background color */
+    color: black; /* Text color */
+    border: 1px solid #ccc; /* Optional border */
+    padding: 10px 15px; /* Padding */
+    border-radius: 4px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor */
+    transition: background-color 0.3s ease; /* Smooth transition */
+  }
+  
+  .search-button:hover {
+    background-color: grey; /* Background color on hover */
+    color: white; /* Change text color on hover */
+  }
+  
+  .footer-copy {
+    margin-top: 10px; /* Space above copyright text */
+  }
+
+  .search-button {
+    background-color: white; /* Initial background color */
+    color: black; /* Text color */
+    border: 1px solid #ccc; /* Optional border */
+    padding: 10px 15px; /* Padding */
+    cursor: pointer; /* Pointer cursor */
+    transition: background-color 0.3s ease; /* Smooth transition */
+  }
+  
+  .search-button:hover {
+    background-color: grey; /* Background color on hover */
+    color: white; /* Change text color on hover, if desired */
+  }
+  
+  @media (max-width: 600px) {
+    .footer-content {
+      flex-direction: column; /* Stack items vertically */
+    }
+  
+    .social-media a {
+      margin: 5px; /* Reduce spacing for smaller screens */
+    }
+  
+    .search-form {
+      flex-direction: column; /* Stack search input and button vertically */
+      align-items: center;
+    }
+  
+    .search-button {
+      margin-left: 0; /* Reset margin for vertical alignment */
+      margin-top: 5px; /* Add spacing between input and button */
+    }
+  }
+
+  .footer-links a:focus,
+.social-media a:focus,
+.search-button:focus {
+  outline: 2px solid white; /* Visible focus outline */
+}
+
+  

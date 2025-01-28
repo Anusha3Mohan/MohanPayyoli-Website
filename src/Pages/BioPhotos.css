@@ -1,0 +1,44 @@
+.bio-sections {
+    display: flex;
+    gap: 2rem;
+    padding: 1rem;
+  }
+  
+  .bio-photos, .bio-arts {
+    flex: 1;
+    text-align: center;
+  }
+  
+  .add-photo, .add-art {
+    margin-bottom: 1rem;
+  }
+  
+  .photos-list, .arts-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 1rem;
+  }
+  
+  .photo-item, .art-item {
+    position: relative;
+  }
+  
+  .photo-item img, .art-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .photo-item button, .art-item button {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    background-color: #ff4b4b;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    padding: 5px;
+    cursor: pointer;
+  }
+  

@@ -1,0 +1,262 @@
+.admin-bio-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+}
+
+.admin-header {
+    display: flex;
+    align-items: center;
+    background-color: black; /* Updated to black */
+    color: white; /* Text color set to white */
+    padding: 10px 20px;
+    border-radius: 5px 5px 0 0;
+}
+
+.admin-header h2 {
+    flex: 1;
+    text-align: center;
+    font-size: 18px;
+    margin: 0;
+    color: white; /* Ensure "Admin: Manage Bio" text is white */
+}
+
+.back-btn {
+    background: none;
+    border: none;
+    color: white; /* Default color white */
+    font-size: 18px;
+    cursor: pointer;
+}
+
+
+
+h3 {
+    margin-bottom: 10px;
+    color: #444;
+}
+
+.styled-textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.photo-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.photo-item {
+    position: relative;
+}
+
+.preview-image {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.delete-btn,
+.add-btn,
+.save-btn,
+.cancel-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 10px;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.delete-btn {
+    background-color: #ff4d4d;
+    color: #fff;
+}
+
+.delete-btn:hover {
+    background-color: #e63939;
+}
+
+.add-btn {
+    background-color: #4caf50;
+    color: #fff;
+}
+
+.add-btn:hover {
+    background-color: #43a047;
+}
+
+.save-btn {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.save-btn:hover {
+    background-color: #0056b3;
+}
+
+.cancel-btn {
+    text-decoration: none;
+    color: #777;
+}
+
+.cancel-btn:hover {
+    color: #555;
+}
+
+.about-me-photo-section {
+    margin-top: 20px;
+  }
+  
+  .photo-display {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  .preview-image {
+    max-width: 400px;
+    max-height: 300px;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .add-btn, .delete-btn {
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .delete-btn {
+    background-color: #dc3545;
+    margin-top: 10px;
+  }
+  
+  .add-btn:hover, .delete-btn:hover {
+    opacity: 0.9;
+  }
+  
+  .styled-textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+    resize: none;
+  }
+  
+  .about-me-photo {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .about-me-photo-display {
+    max-width: 70%;
+    height: auto;
+    border-radius: 10px;
+    margin-top: 10px;
+  }
+  
+  .photo-actions {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  
+  .replace-btn {
+    padding: 8px 12px;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+  }
+  
+  .replace-btn:hover {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .navigation-buttons {
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .nav-btn {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .nav-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  .cancel-btn {
+    background-color: #dc3545;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-left: 10px;
+  }
+  
+  .cancel-btn:hover {
+    background-color: #a71d2a;
+  }
+  
+  /* Replace Photo Button */
+.replace-photo-btn {
+    background-color: #007bff; /* Modern blue color */
+    color: #fff; /* White text */
+    padding: 10px 20px; /* Spacing for a balanced look */
+    border: none; /* Remove default border */
+    border-radius: 25px; /* Rounded button */
+    cursor: pointer; /* Pointer on hover */
+    font-size: 16px; /* Readable font size */
+    font-weight: 600; /* Slightly bold text */
+    transition: background-color 0.3s ease, transform 0.2s ease; /* Smooth transitions */
+  }
+  
+  .replace-photo-btn:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+    transform: scale(1.05); /* Slight enlargement effect */
+  }
+  
+  .replace-photo-btn:active {
+    background-color: #003f7f; /* Even darker blue on click */
+    transform: scale(1); /* Reset scale on click */
+  }
+  
+  /* For responsive design (optional, if needed) */
+  @media (max-width: 768px) {
+    .replace-photo-btn {
+      padding: 8px 15px; /* Adjust padding for smaller screens */
+      font-size: 14px; /* Smaller font size for mobile */
+    }
+  }
+  

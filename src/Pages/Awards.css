@@ -1,0 +1,51 @@
+.award-container {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .award-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .award-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .award-item.left {
+    flex-direction: row; /* Image on the left */
+  }
+  
+  .award-item.right {
+    flex-direction: row-reverse; /* Image on the right */
+  }
+  
+  .award-item img {
+    width: 50%; /* Adjust as necessary */
+    height: auto;
+  }
+  
+  .award-content {
+    padding: 15px;
+    width: 50%; /* Adjust as necessary */
+  }
+  
+  .award-content h2 {
+    margin: 0;
+    font-size: 1.5em;
+  }
+  
+  .award-content p {
+    margin: 5px 0 0;
+    color: #666;
+  }
+  

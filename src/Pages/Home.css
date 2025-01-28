@@ -1,0 +1,114 @@
+/* Photo Container (Slideshow) */
+.photo-container {
+    position: relative;
+    width: 100%;
+    height: 800px; /* Adjust height based on your image dimensions */
+    overflow: hidden;
+}
+
+.photo-container img {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    filter: blur(10px); /* Start with a blurred image */
+    opacity: 0;
+    transition: filter 1s ease-in-out, opacity 1s ease-in-out; /* Transition for blur and opacity */
+}
+
+.photo-container img.fade {
+    filter: blur(0); /* Remove blur for the active image */
+    opacity: 1; /* Fully visible */
+}
+
+/* Photo and Description Section */
+.photo-description-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0; /* Spacing around the section */
+    padding: 50px; /* Adjust padding */
+}
+
+.side-photo {
+    width: 30%; /* Adjust as needed */
+    height: auto; /* Maintain aspect ratio */
+    margin-right: 40px; /* Space between image and text */
+    border-radius: 8px; /* Optional rounded corners */
+}
+
+.description {
+    width: 50%; /* Adjust as needed */
+}
+
+.description-table {
+    background-color: black; /* Black background */
+    color: white; /* White text */
+    border: 2px solid #000; /* Black border */
+    padding: 30px; /* Padding inside the border */
+    border-radius: 8px; /* Optional: rounded corners */
+}
+
+h3 {
+    margin-bottom: 15px; /* Adjust heading margin */
+}
+
+/* Booking Section */
+.booking-section {
+    background-color: black;
+    color: white;
+    padding: 20px; /* Padding for the section */
+    text-align: center;
+    margin-top: 40px; /* Space above the section */
+}
+
+.booking-text {
+    font-size: 22px;
+    margin: 0;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+}
+
+.booking-button {
+    display: inline-block;
+    background-color: white;
+    color: black;
+    padding: 12px 25px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.booking-button:hover {
+    background-color: gray; /* Change color on hover */
+}
+
+/* Portfolio Section */
+.portfolio {
+    margin: 50px 200px; /* Adjust margin for left and right */
+    text-align: center;
+    font-size: 18px;
+}
+
+/* Media Queries for responsiveness */
+@media (max-width: 768px) {
+    .photo-description-container {
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+    }
+
+    .side-photo {
+        width: 80%;
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+
+    .description {
+        width: 80%;
+    }
+
+    .portfolio {
+        margin: 20px 20px;
+    }
+}

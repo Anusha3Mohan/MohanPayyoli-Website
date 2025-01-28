@@ -1,0 +1,78 @@
+/* Image1.css */
+
+.image-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+.image {
+  width: 80%;
+  max-width: 600px;
+  border-radius: 0px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.image-description {
+  margin-top: 20px;
+  text-align: center;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+.image-description h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+
+}
+
+.image-description p {
+  font-size: 16px;
+  color: #555;
+}
+
+.print-size-table {
+  width: 100%;
+  margin-top: 20px;
+  border-collapse: collapse;
+}
+
+.print-size-table th, .print-size-table td {
+  padding: 12px;
+  border: 1px solid #ddd;
+}
+
+.print-size-table th {
+  background-color: #f2f2f2;
+}
+
+.add-to-cart-btn {
+  padding: 8px 16px;
+  background-color: #ff5722;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.add-to-cart-btn:hover {
+  background-color: #e64a19;
+}
+
+.add-to-cart-main-btn {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #ff5722;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.add-to-cart-main-btn:hover {
+  background-color: #e64a19;
+}
